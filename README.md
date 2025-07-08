@@ -137,7 +137,6 @@ terraform-disaster-recovery/
 ├── variables.tf
 ├── outputs.tf
 ├── providers.tf
-├── terraform.tfvars (optional)
 ├── modules/
 │   ├── networking/
 │   ├── security/
@@ -151,16 +150,3 @@ terraform-disaster-recovery/
 ```
 
 ---
-
-## 🧾 .gitignore Example
-
-```
-.terraform/
-*.tfstate
-*.tfvars
-crash.log
-.terraform.lock.hcl
-.idea/
-.vscode/
-.DS_Store
-```
