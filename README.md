@@ -54,7 +54,7 @@ This project implements a **Disaster Recovery (DR)** solution using **Terraform*
                             |
                        [ Route 53 ]
                      /               \
-     📍 us-east-1 (Primary)     📍 us-east-2 (DR)
+     📍 ca-central-1 (Primary)     📍 us-east-2 (DR)
      --------------------       ---------------------
      [  ALB  ]                  [  ALB  ]
          |                         |
